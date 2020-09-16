@@ -1,0 +1,69 @@
+Furniture application using Mobile Augmented Reality
+**Detailed Explanation about usage of Application: **
+I will be explaining in steps how the application should work :
+
+
+Initially the user will download the application from the app Store. The Name of the application is "FurnitureLand".
+
+
+Upon opening the application it asks the user to sign in if you are already an account if not create an account by giving details.
+
+
+It prompts you with agreeing terms and condition accept those and give the application permission of using the phone Camera both front and rear.
+
+
+Finally the person opens the app and the Welcome page(main  front page) appears with multiple content such as current offers, most recommended options, current trend, highest purchase , high customer review products etc. Also there are options such as  custom-settings, customer account details, it has options to choose different categories etc.
+
+
+The user selects the option called custom-setting on the left above corner, which gives a drop down for the customer to choose such as product type, color selection, category selection such as sofa , TV stand, wooden products etc
+
+
+Upon selecting the wooden products option in the custom setting a different page appears with other options that are related to products such as table, cupboard, dressing stand, kitchen racks etc. Let us consider that the user selects the table section in order to buy a teapoy.
+
+
+Once the teapoy option has been selected a new page appears which contains of multiple options of teapoys for the customer to select. She/He can scroll upon which new designs will be loaded else list of pages are given in the end she can click them and jump to any page which contains set to earrings.
+
+
+There again she has options such as filter and sort to reduce the number of designs according to her preferences.
+
+
+The user finds a perfect teapoy as per her requirement and she selects that. Upon selecting there she has again multiple options such as try-me, customer review, product details, delivery time etc.
+
+
+The user selects TRY-ME option by which the rear camera of the smart phone is selected and she can see the augmented  teapoy on which ever place she is pointing at, she can identify how the table might look in that place when she buys them actually. Thus giving an appropriate exact idea for customers to choose the products that best suits them.
+
+
+Prerequisites and Set-up of Software:
+
+
+Install the latest version of Unity, and in the Unity component selection section of the installer, select Vuforia Augmented Reality Support, along with Android Build Support packages.
+
+
+Create a Vuforia developer account from the Vuforia Registration Page . This account gives you access to the tools you need to make AR and MR applications with Vuforia in Unity.
+
+
+If you have not already created a Unity ID, then do so from the Unity Registration Page. You need a Unity ID to download any packages from the Unity Asset Store
+
+
+Open Unity and create a new 3D Project (make sure the 3D option is selected next to the Add Asset Package button). Name your Project, then click the Create project button.
+
+
+To activate Vuforia in your Unity project, access the Player settings from Edit > Project Settings, then select the Player category, and select the tab for the mobile device you are building to. Under the XR Settings panel, enable the Vuforia Augmented Reality Support property.
+
+
+To add an AR Camera to your scene, go to GameObject > Vuforia > AR Camera.
+
+
+Create a new folder in your project. To do this, navigate to the Project window, click the Create button, and select Folder. Name this new folder Scenes and save a new Scene inside this folder.
+
+
+Visit the Vuforia Developer Portal and log in (or create a new account). Navigate to the License Manager in the Develop section and click the Get Development Key button to open the Add License Key page.
+
+
+On the Add License Key page, enter a name for your app. Accept the terms and conditions, then click the Confirm button to generate a new license key.
+
+
+Copy the license key to the clipboard and navigate back to your Unity Project.Select the ARCamera GameObject from the Hierarchy window and, in the Inspector.
+
+
+window, navigate to the the Vuforia Behaviour(Script) component and click the Open Vuforia configuration button.The Inspector window displays a list of Vuforia Configuration options. Paste your Vuforia Development key into the App License Key text box under the Vuforia section and then click the Add License button.
